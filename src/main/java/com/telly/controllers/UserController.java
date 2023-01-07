@@ -1,10 +1,6 @@
+package com.telly.controllers;
 
 
-import com.telly.dao.FormValidationGroup;
-import com.telly.dao.Reserve;
-import com.telly.dao.User;
-import com.telly.service.ReserveService;
-import com.telly.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -22,6 +18,11 @@ public class UserController {
 	@RequestMapping("/login")
 	public String showLogin() {
 		return "login";
+	}
+
+	@RequestMapping("/loggedout")
+	public String showLogout() {
+		return "loggedout";
 	}
 
 }
