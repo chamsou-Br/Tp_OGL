@@ -14,7 +14,7 @@ import java.util.List;
 
 
 public class UserController {
-
+	
 	@RequestMapping("/login")
 	public String showLogin() {
 		return "login";
