@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="GradleMigrationSettings" migrationVersion="1" />
+=======
+>>>>>>> 210300da492922f165282db718cab22db180a3ef
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+<<<<<<< HEAD
         <option name="gradleHome" value="D:/gradle-6.9" />
+=======
+        <option name="gradleHome" value="$PROJECT_DIR$/../gradle-6.9.3-bin/gradle-6.9.3" />
+>>>>>>> 210300da492922f165282db718cab22db180a3ef
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
